@@ -20,10 +20,10 @@
     "test:coverage": "vitest --coverage --silent='passed-only'"
   },
   "dependencies": {
-    "@lobechat/const": "workspace:*",
-    "@lobechat/model-runtime": "workspace:*",
-    "@lobechat/types": "workspace:*",
-    "@lobechat/utils": "workspace:*",
+    "@lobechat/const": "file:../const",
+    "@lobechat/model-runtime": "file:../model-runtime",
+    "@lobechat/types": "file:../types",
+    "@lobechat/utils": "file:../utils",
     "i18next": "^24.2.3"
   }
 }

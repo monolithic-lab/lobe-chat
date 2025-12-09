@@ -8,7 +8,7 @@
   },
   "main": "./src/index.ts",
   "dependencies": {
-    "model-bank": "workspace:*",
+    "model-bank": "file:../model-bank",
     "query-string": "^9.3.1",
     "url-join": "^5.0.0"
   }

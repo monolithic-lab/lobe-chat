@@ -19,7 +19,7 @@
     "test:update": "vitest -u"
   },
   "dependencies": {
-    "@lobechat/types": "workspace:*"
+    "@lobechat/types": "file:../types"
   },
   "devDependencies": {
     "promptfoo": "^0.118.17",

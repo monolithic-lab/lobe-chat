@@ -14,8 +14,8 @@
     "test:coverage": "vitest --coverage --silent='passed-only'"
   },
   "dependencies": {
-    "@lobechat/const": "workspace:*",
-    "@lobechat/types": "workspace:*",
+    "@lobechat/const": "file:../const",
+    "@lobechat/types": "file:../types",
     "dayjs": "^1.11.19",
     "dompurify": "^3.3.0"
   },

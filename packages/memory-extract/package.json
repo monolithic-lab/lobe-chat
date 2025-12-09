@@ -7,8 +7,8 @@
     "gatekeeper": "tsx scripts/run-gatekeeper.ts"
   },
   "dependencies": {
-    "@lobechat/model-runtime": "workspace:*",
-    "@lobechat/prompts": "workspace:*",
+    "@lobechat/model-runtime": "file:../model-runtime",
+    "@lobechat/prompts": "file:../prompts",
     "dotenv": "^17.2.3",
     "ora": "^9.0.0"
   },
